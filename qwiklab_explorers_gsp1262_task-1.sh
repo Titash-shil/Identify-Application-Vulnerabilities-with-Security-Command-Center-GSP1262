@@ -22,7 +22,7 @@ sleep 10
 
 IP=$(gcloud compute instances describe xss-test-vm-instance --zone=$ZONE --project=$DEVSHELL_PROJECT_ID --format="get(networkInterfaces[0].accessConfigs[0].natIP)")
 
-gcloud alpha web-security-scanner scan-configs create --display-name=Awesome --starting-urls=http://$IP:8080
+gcloud alpha web-security-scanner scan-configs create --display-name=QwikLab-Explorers --starting-urls=http://$IP:8080
 
 SCAN_CONFIG=$(gcloud alpha web-security-scanner scan-configs list --project=$DEVSHELL_PROJECT_ID --format="value(name)")
 
