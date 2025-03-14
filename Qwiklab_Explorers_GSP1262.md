@@ -13,22 +13,22 @@
 export ZONE=
 ```
 ```
-curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/main/Identify%20Application%20Vulnerabilities%20with%20Security%20Command%20Center/shell-1.sh
+curl -LO raw.githubusercontent.com/Titash-shil/Identify-Application-Vulnerabilities-with-Security-Command-Center-GSP1262/refs/heads/main/qwiklab_explorers_gsp1262_task-1.sh
 
-sudo chmod +x shell-1.sh
+sudo chmod +x qwiklab_explorers_gsp1262_task-1.sh
 
-./shell-1.sh
+./qwiklab_explorers_gsp1262_task-1.sh
 ```
 * Go to `Cloud Web Security Scanner` from [here](https://console.cloud.google.com/security/web-scanner/scanConfigs?)
 
-* #### Check All Score Upto `Task 4` then Run the below commands only
+* #### Check All Task's Score Upto `Task 4` then Run the below commands only
 
 ```
-curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/main/Identify%20Application%20Vulnerabilities%20with%20Security%20Command%20Center/shell-2.sh
+curl -LO raw.githubusercontent.com/Titash-shil/Identify-Application-Vulnerabilities-with-Security-Command-Center-GSP1262/refs/heads/main/qwiklab_explorers_gsp1262_task-2.sh
 
-sudo chmod +x shell-2.sh
+sudo chmod +x qwiklab_explorers_gsp1262_task-2.sh
 
-./shell-2.sh
+./qwiklab_explorers_gsp1262_task-2.sh
 ```
 ---
 
